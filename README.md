@@ -26,6 +26,6 @@ pip install -r requirements.txt
 
 
 ```
-python3 update_ses_template.py <EmailTemplate.json>
+python3 update_ses_template.py EmailTemplate.json
 ```
 

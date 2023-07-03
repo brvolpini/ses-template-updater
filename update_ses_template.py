@@ -88,7 +88,8 @@ class AWSSesTemplate:
 
 
 def main():
-    """Main function
+    """
+    Main function
     """
     TEMPLATE_NAME = sys.argv[1]
     TEMPLATE_NAME_SPLITTED =  os.path.splitext(TEMPLATE_NAME)[0]

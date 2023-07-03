@@ -6,7 +6,7 @@
 
 
 ### Description
-SES Email Templates creation and update of through python and Boto3
+SES Email Templates creation and update through python and Boto3
 
 
 ### Usage

@@ -18,22 +18,28 @@ export AWS_SECRET_ACCESS_KEY = ****************
 export AWS_REGION = ****************
 ```
 
-Create virtual environment and run script
-
+# Install venv
 ```
 pip install virtualenv
 ```
+# Create venv
+## Windows
+```
+python -m virtualenv env
+.\env\Scripts\activate
+```
+## Mac
 ```
 virtualenv venv
-```
-```
 source venv/bin/activate
 ```
+
+# Install required libraries
 ```
 pip install -r requirements.txt
 ```
 
-
+# Run script
 ```
 python3 update_ses_template.py EmailTemplate.json
 ```

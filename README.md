@@ -11,7 +11,7 @@ SES Email Templates creation and update through python and Boto3
 
 ### Usage
 
-Set AWS ENV
+# Set aws env
 ```
 export AWS_ACCESS_KEY_ID = ****************
 export AWS_SECRET_ACCESS_KEY = ****************
